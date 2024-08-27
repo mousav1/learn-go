@@ -3,41 +3,44 @@ package main
 import "fmt"
 
 func main() {
-	// var age int     // variable declaration
-	// var name string // variable declaration
-	// fmt.Println(age)
-	// fmt.Println(name)
+	// // Declaring variables
+	var a int
+	var b string
+	fmt.Println(a)
+	fmt.Println(b)
 
-	// age = 10 //assignment
-	// fmt.Println(age)
+	// Initializing Variables
+	a = 10 //assignment
+	fmt.Println(a)
 
-	// var age = 10            //assignment
-	// var name = "topdemy.ir" //assignment
-	// fmt.Println(age)
-	// fmt.Println(name)
+	// Creating and initializing variables
+	var c = 10
+	var d = "topdemy.ir"
+	fmt.Println(c)
+	fmt.Println(d)
 
-	// //Declaring a variable with an initial value
+	// Declaring multiple variables
+	var e, f int
+	fmt.Println(e, f)
+	e = 10
+	f = 100
+	fmt.Println(e, f)
+	// Creating and initializing multiple variables
+	var g, h = 10, 100
+	fmt.Println(g, h)
 
-	// var age, sum int
-	// fmt.Println(age, sum)
-	// age = 10
-	// sum = 100
-	// fmt.Println(age, sum)
+	// Variable Declaration Block
+	var (
+		i = 10
+		j = "mohammad"
+		k = 1000
+	)
 
-	// var age, sum = 10, 100
-	// fmt.Println(age, sum)
+	fmt.Println(i, j, k)
 
-	// var (
-	// 	age  = 10
-	// 	name = "mohammad"
-	// 	sum  = 1000
-	// )
-
-	// fmt.Println(age, name, sum)
-
-	// Short hand declaration
-	var age int
-	var count int
-	count, age, a := 10, 20, 30
-	fmt.Println(count, age, a)
+	//Short variable declaration
+	var l int
+	var m int
+	l, m, n := 10, 20, 30
+	fmt.Println(l, m, n)
 }
