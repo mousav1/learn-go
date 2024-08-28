@@ -72,4 +72,9 @@ func main() {
 	sum := o + p
 	fmt.Println("value of a is ", sum)
 
+	// T(v)
+	// a := 80
+	// b := 80.1
+	// sum := float64(a) + b
+	// fmt.Println(sum)
 }
