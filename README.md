@@ -6,7 +6,7 @@ This repository contains a series of tutorials on the Go (Golang) programming la
 
 All tutorials are available on our YouTube channel. Check out the videos through the link below:
 
-[YouTube Channel](https://www.youtube.com/channel/UCYourChannelID)
+[YouTube Channel](https://www.youtube.com/@topdemy/playlists)
 
 ## 📂 Repository Structure
 
